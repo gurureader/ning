@@ -1,0 +1,221 @@
+html {
+    background: #ffffff;
+    font-family: 'Helvetica Neue',Helvetica;
+}
+.post_body {
+    margin:0;
+    margin-top:5px;
+    padding-bottom:30px;
+}
+
+.post_body figure img {
+    display:block;
+    margin:auto;
+    clear:both;
+}
+
+figure {
+    margin: 0 0 0.5em 0;
+}
+
+.post_body figcaption {
+    display:block;
+    margin:auto;
+    text-align: center;
+}
+
+.post_body object, .post_body video, .post_body embed，.post_body table{
+    vertical-align:middle;
+    border:0;
+    border-top-style: none;
+    border-right-style: none;
+    border-bottom-style: none;
+    border-left-style: none;
+    text-align:center;
+    margin:0 auto;
+    max-width:#tc-width#px;
+    height:auto;
+}
+
+iframe {
+    vertical-align:middle;
+    border:0;
+    border-top-style: none;
+    border-right-style: none;
+    border-bottom-style: none;
+    border-left-style: none;
+    text-align:center;
+    margin:0 auto;
+    width:#tc-width#px;
+    height:auto;
+    display:none;
+}
+
+.post_body img {
+    vertical-align:middle;
+    border:0;
+    border-top-style: none;
+    border-right-style: none;
+    border-bottom-style: none;
+    border-left-style: none;
+    display: block;
+    margin:0 auto;
+    max-width: #tc-width#px;
+}
+
+.post_body textarea {
+    width:#tc-width#px;
+    overflow-y:visible;
+    height:100px;
+}
+
+.post_body, .post_body p, .post_body div, .post_body ol, .post_body ul, .post_body ul li, .post_body ol li, .post_body blockquote {
+    font-size: #tc-font#px;
+    line-height: 1.7em;
+    word-wrap:break-word;
+    overflow:hidden;
+}
+
+p {
+    margin: 0 0 0.6em;
+    text-indent:0em;
+}
+
+h1,h2,h3 {
+    font-size:#tc-font-large#px;
+    margin: 0 0 0.5em;
+    text-indent:0em;
+}
+
+h4 {
+    margin: 0 0 0.5em;
+    text-indent:0em;
+}
+
+table {
+    border: 1px solid #ddd;
+    border-collapse: separate;
+    border-left: 0;
+    border-bottom:0;
+}
+
+td {
+    border-left: 1px solid #ddd;
+    border-bottom: 1px solid #ddd;
+    border-collapse: separate;
+}
+
+.post_body ol{
+    list-style-type:disc;
+    padding-left:5px;
+    margin-left:0px;
+}
+
+
+.post_body ul {
+    list-style-type:disc;
+    padding-left:5px;
+    margin-left:0px;
+}
+
+blockquote {
+    border-left: 3px solid #0aa384;
+    margin-left: 0px;
+    margin-right: 0px;
+}
+
+img.alignLeft,img.alignLeft0 {
+    float:left;max-width:120px;margin:0 10px 5px 0;padding:2px;}
+
+img.alignCenter {display:block;margin-bottom:5px;margin-top:5px;}
+
+img.breakLine {
+    display:block;
+    clear:both;
+}
+
+table,tr,td, td p {
+    font-size: #tc-font-small#px !important;
+    line-height:#tc-font-small#px !important;
+    text-indent:0em;
+}
+
+.post_body h4, .post_body h5, .post_body h6,.post_body h4 small {
+    font-size: #tc-font#px;
+}
+
+pre {
+    margin:0 auto;
+    font-size:#tc-font-smallest#px;
+    line-height:1.6em;
+    font-family:Menlo,Monaco,Consolas,Courier New,monospace;
+    background:#ededed;
+    word-wrap:break-word;
+    word-break:break-all;
+    white-space: -moz-pre-wrap;
+    white-space: -pre-wrap;
+    white-space: -o-pre-wrap;
+    white-space: pre-wrap;
+    -moz-tab-size: 0;
+    -o-tab-size: 0;
+    tab-size: 0;
+    border:none;
+    padding: 0.5em;
+}
+
+a {
+    color: #949494;
+    font-style: italic;
+    text-decoration: none;
+    border-bottom: 1px dashed #949494;
+}
+.source_article {
+    margin:0 auto;
+    margin-top:15px;
+    width:200px;
+}
+.source_article a{
+    display: block;
+    text-align: center;
+    text-decoration: none;
+    border-bottom:none;
+    padding:8px 0px 8px 0px;
+    background-color:#F5F5F5;
+    font-style:normal;
+    font-size:#tc-font-smallest#px;
+    color:gray;
+}
+.head {
+    font-size:#tc-font-largest#px;
+    margin-top:20px;
+}
+.head-title {
+    font-weight:bold;
+}
+.head-meta {
+    margin-top:5px;
+}
+.head-feed {
+    font-size:#tc-font-small#px;
+    color:#808080;
+    padding-left:0px;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+.img_text_center {
+    text-align: center;
+    display: block;
+}
+.head-time {
+    font-size:#tc-font-small#px;
+    color:#808080;
+    margin-left:15px;
+}
+code {
+    font-family: Menlo,Monaco,Consolas,Courier New,monospace;
+    border:none;
+    padding: 4px 4px;
+    background:#ededed;
+    font-size:#tc-font-smallest#px;
+    font-weight:bold;
+}

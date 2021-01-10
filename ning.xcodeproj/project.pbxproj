@@ -1,0 +1,1283 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 51;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		78FF76E2166DE6BD88EE23AA /* Pods_ning.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BFE20B0CAFE53B3F05BAF724 /* Pods_ning.framework */; };
+		8E1AD40B255BFF0D007CE01C /* MemberController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8E1AD40A255BFF0D007CE01C /* MemberController.swift */; };
+		8E1AD40F255BFFD8007CE01C /* MemberInfo.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8E1AD40E255BFFD8007CE01C /* MemberInfo.swift */; };
+		8E1AD415255FA882007CE01C /* MemberView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8E1AD414255FA882007CE01C /* MemberView.swift */; };
+		8E1AD4192561200A007CE01C /* MemberPayView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8E1AD4182561200A007CE01C /* MemberPayView.swift */; };
+		8E1AD41C2561738B007CE01C /* member.png in Resources */ = {isa = PBXBuildFile; fileRef = 8E1AD41B2561738B007CE01C /* member.png */; };
+		8E211100256A832D00CC9FC9 /* abs_image_no.png in Resources */ = {isa = PBXBuildFile; fileRef = 8E2110FF256A832D00CC9FC9 /* abs_image_no.png */; };
+		8E211109256A836900CC9FC9 /* abs_image.png in Resources */ = {isa = PBXBuildFile; fileRef = 8E211108256A836900CC9FC9 /* abs_image.png */; };
+		8E21112C256AA07000CC9FC9 /* MemberOrderDAO.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8E21112B256AA07000CC9FC9 /* MemberOrderDAO.swift */; };
+		8E211130256AA15900CC9FC9 /* NingOrder.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8E21112F256AA15900CC9FC9 /* NingOrder.swift */; };
+		8E21113B25727D1E00CC9FC9 /* NingReceiptValidator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8E21113A25727D1E00CC9FC9 /* NingReceiptValidator.swift */; };
+		8E5630B725402E2C00717259 /* UserEmailController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8E5630B625402E2C00717259 /* UserEmailController.swift */; };
+		8E5630BA25402E6800717259 /* UserEmailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8E5630B925402E6800717259 /* UserEmailView.swift */; };
+		8E919DA12535616D00E34D28 /* KingfisherExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8E919DA02535616D00E34D28 /* KingfisherExtension.swift */; };
+		8E919DC325357AF400E34D28 /* OauthInfo.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8E919DC225357AF400E34D28 /* OauthInfo.swift */; };
+		8E919DC72535F06500E34D28 /* UploadApi.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8E919DC62535F06500E34D28 /* UploadApi.swift */; };
+		DA0C169B25088F8F0000DF1E /* ArticleDetailHelper.swift in Sources */ = {isa = PBXBuildFile; fileRef = DA0C169A25088F8F0000DF1E /* ArticleDetailHelper.swift */; };
+		DA0C169D2508C6470000DF1E /* ArticleDetailOpHandler.swift in Sources */ = {isa = PBXBuildFile; fileRef = DA0C169C2508C6470000DF1E /* ArticleDetailOpHandler.swift */; };
+		DA0C169F25091A710000DF1E /* NingGroupItemCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = DA0C169E25091A710000DF1E /* NingGroupItemCell.swift */; };
+		DA0C16A125091AAF0000DF1E /* NingGroupHeaderCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = DA0C16A025091AAF0000DF1E /* NingGroupHeaderCell.swift */; };
+		DA0C16A325091F6D0000DF1E /* NingMyGroupSourceController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DA0C16A225091F6D0000DF1E /* NingMyGroupSourceController.swift */; };
+		DA11EBA62555614A003B8758 /* KeywordListController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DA11EBA52555614A003B8758 /* KeywordListController.swift */; };
+		DA11EBAA25556179003B8758 /* KeywordItemCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = DA11EBA925556179003B8758 /* KeywordItemCell.swift */; };
+		DA11EBAD255561A8003B8758 /* EmptyKeywordView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DA11EBAC255561A8003B8758 /* EmptyKeywordView.swift */; };
+		DA11EBB025556871003B8758 /* KeywordApi.swift in Sources */ = {isa = PBXBuildFile; fileRef = DA11EBAF25556871003B8758 /* KeywordApi.swift */; };
+		DA11EBB3255631EE003B8758 /* KeywordArticleListController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DA11EBB2255631EE003B8758 /* KeywordArticleListController.swift */; };
+		DA2A3E2F2531B9EB0047F726 /* NewUserController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DA2A3E2E2531B9EB0047F726 /* NewUserController.swift */; };
+		DA2A3E322531BA330047F726 /* NewUserFormView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DA2A3E312531BA330047F726 /* NewUserFormView.swift */; };
+		DA2A3E352531F96E0047F726 /* AboutView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DA2A3E342531F96E0047F726 /* AboutView.swift */; };
+		DA2A3E38253200340047F726 /* ArticleReadDAO.swift in Sources */ = {isa = PBXBuildFile; fileRef = DA2A3E37253200340047F726 /* ArticleReadDAO.swift */; };
+		DA2A3E3B253203D20047F726 /* DateExtensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = DA2A3E3A253203D20047F726 /* DateExtensions.swift */; };
+		DA2C329E24FE469F00F66229 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = DA2C329D24FE469F00F66229 /* AppDelegate.swift */; };
+		DA2C32A224FE469F00F66229 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DA2C32A124FE469F00F66229 /* ViewController.swift */; };
+		DA2C32A524FE469F00F66229 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DA2C32A324FE469F00F66229 /* Main.storyboard */; };
+		DA2C32A724FE46A600F66229 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DA2C32A624FE46A600F66229 /* Assets.xcassets */; };
+		DA2C32AA24FE46A600F66229 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DA2C32A824FE46A600F66229 /* LaunchScreen.storyboard */; };
+		DA2F3FE9251065920074E233 /* UserNameView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DA2F3FE8251065920074E233 /* UserNameView.swift */; };
+		DA2F3FEB251068090074E233 /* UserPasswordView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DA2F3FEA251068090074E233 /* UserPasswordView.swift */; };
+		DA2F3FED251079730074E233 /* GroupApi.swift in Sources */ = {isa = PBXBuildFile; fileRef = DA2F3FEC251079730074E233 /* GroupApi.swift */; };
+		DA2F3FEF2510BEEC0074E233 /* EditGroupController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DA2F3FEE2510BEEC0074E233 /* EditGroupController.swift */; };
+		DA2F3FF32510E2500074E233 /* NingManageGroupCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = DA2F3FF22510E2500074E233 /* NingManageGroupCell.swift */; };
+		DA2F3FF52510E3D50074E233 /* ManageGroupController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DA2F3FF42510E3D50074E233 /* ManageGroupController.swift */; };
+		DA2F3FF72510E3F00074E233 /* NingManageGroupSourceController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DA2F3FF62510E3F00074E233 /* NingManageGroupSourceController.swift */; };
+		DA2F3FF92510FFEB0074E233 /* ManageGroupSourceCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = DA2F3FF82510FFEB0074E233 /* ManageGroupSourceCell.swift */; };
+		DA2F854A2518628500035C83 /* ControllerUtils.swift in Sources */ = {isa = PBXBuildFile; fileRef = DA2F85492518628500035C83 /* ControllerUtils.swift */; };
+		DA4D7001250352AF00F9F477 /* NingArticleDetailController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DA4D7000250352AF00F9F477 /* NingArticleDetailController.swift */; };
+		DA4D700B25039DF200F9F477 /* UEmptyDataSet.swift in Sources */ = {isa = PBXBuildFile; fileRef = DA4D700325039DF200F9F477 /* UEmptyDataSet.swift */; };
+		DA4D700C25039DF200F9F477 /* UCollectionViewAlignedLayout.swift in Sources */ = {isa = PBXBuildFile; fileRef = DA4D700425039DF200F9F477 /* UCollectionViewAlignedLayout.swift */; };
+		DA4D700D25039DF200F9F477 /* ParallaxHeader.swift in Sources */ = {isa = PBXBuildFile; fileRef = DA4D700525039DF200F9F477 /* ParallaxHeader.swift */; };
+		DA4D700E25039DF200F9F477 /* URefresh.swift in Sources */ = {isa = PBXBuildFile; fileRef = DA4D700625039DF200F9F477 /* URefresh.swift */; };
+		DA4D700F25039DF200F9F477 /* ParallaxHeaderMode.swift in Sources */ = {isa = PBXBuildFile; fileRef = DA4D700725039DF200F9F477 /* ParallaxHeaderMode.swift */; };
+		DA4D701025039DF200F9F477 /* UHairPowder.swift in Sources */ = {isa = PBXBuildFile; fileRef = DA4D700825039DF200F9F477 /* UHairPowder.swift */; };
+		DA4D701125039DF200F9F477 /* UCollectionViewSectionBackgroundLayout.swift in Sources */ = {isa = PBXBuildFile; fileRef = DA4D700925039DF200F9F477 /* UCollectionViewSectionBackgroundLayout.swift */; };
+		DA4D701225039DF200F9F477 /* UIScrollView+ParallaxHeader.swift in Sources */ = {isa = PBXBuildFile; fileRef = DA4D700A25039DF200F9F477 /* UIScrollView+ParallaxHeader.swift */; };
+		DA4D707A2503CE1800F9F477 /* member.html in Resources */ = {isa = PBXBuildFile; fileRef = DA4D70142503CE1700F9F477 /* member.html */; };
+		DA4D70DB2503CE1800F9F477 /* default.css in Resources */ = {isa = PBXBuildFile; fileRef = DA4D70762503CE1800F9F477 /* default.css */; };
+		DA4D70DC2503CE1800F9F477 /* detail.html in Resources */ = {isa = PBXBuildFile; fileRef = DA4D70772503CE1800F9F477 /* detail.html */; };
+		DA4D70E12503E4A100F9F477 /* ThemeManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = DA4D70E02503E4A100F9F477 /* ThemeManager.swift */; };
+		DA4D70E4250496C300F9F477 /* MineHeaderView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DA4D70E3250496C300F9F477 /* MineHeaderView.swift */; };
+		DA4D70E62504A52F00F9F477 /* NingUtils.swift in Sources */ = {isa = PBXBuildFile; fileRef = DA4D70E52504A52F00F9F477 /* NingUtils.swift */; };
+		DA4D70E82504A94700F9F477 /* UserDAO.swift in Sources */ = {isa = PBXBuildFile; fileRef = DA4D70E72504A94700F9F477 /* UserDAO.swift */; };
+		DA4D70EA2504A96B00F9F477 /* UserInfo.swift in Sources */ = {isa = PBXBuildFile; fileRef = DA4D70E92504A96B00F9F477 /* UserInfo.swift */; };
+		DA4D70EC2504AABB00F9F477 /* DAOFactory.swift in Sources */ = {isa = PBXBuildFile; fileRef = DA4D70EB2504AABB00F9F477 /* DAOFactory.swift */; };
+		DA4D70EE2504AC6400F9F477 /* UserLoginController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DA4D70ED2504AC6400F9F477 /* UserLoginController.swift */; };
+		DA4D70F12504D0FC00F9F477 /* LoginView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DA4D70F02504D0FC00F9F477 /* LoginView.swift */; };
+		DA4D70F32504D1E800F9F477 /* BaseView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DA4D70F22504D1E800F9F477 /* BaseView.swift */; };
+		DA4D70F5250501ED00F9F477 /* UserApi.swift in Sources */ = {isa = PBXBuildFile; fileRef = DA4D70F4250501ED00F9F477 /* UserApi.swift */; };
+		DA6BD9A3255A7D1D00B8F284 /* KeywordRuleItemCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = DA6BD9A2255A7D1D00B8F284 /* KeywordRuleItemCell.swift */; };
+		DA6BD9A6255A7D5800B8F284 /* KeywordRuleHeader.swift in Sources */ = {isa = PBXBuildFile; fileRef = DA6BD9A5255A7D5800B8F284 /* KeywordRuleHeader.swift */; };
+		DA6BD9A9255A832100B8F284 /* Keyword.swift in Sources */ = {isa = PBXBuildFile; fileRef = DA6BD9A8255A832100B8F284 /* Keyword.swift */; };
+		DA789CE924FE703C00CB27CE /* HomeTabController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DA789CE824FE703C00CB27CE /* HomeTabController.swift */; };
+		DA789CEB24FE709400CB27CE /* ArticleTabController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DA789CEA24FE709400CB27CE /* ArticleTabController.swift */; };
+		DA789CED24FE70C600CB27CE /* BaseViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DA789CEC24FE70C600CB27CE /* BaseViewController.swift */; };
+		DA789CEF24FE77A600CB27CE /* SubTabController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DA789CEE24FE77A600CB27CE /* SubTabController.swift */; };
+		DA789CF124FE77D100CB27CE /* SettingTabController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DA789CF024FE77D100CB27CE /* SettingTabController.swift */; };
+		DA789CF324FE77E900CB27CE /* DiscoveryTabController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DA789CF224FE77E900CB27CE /* DiscoveryTabController.swift */; };
+		DA789CF524FE80C800CB27CE /* NingNaviController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DA789CF424FE80C800CB27CE /* NingNaviController.swift */; };
+		DA789CF724FE88AF00CB27CE /* NingGlobal.swift in Sources */ = {isa = PBXBuildFile; fileRef = DA789CF624FE88AF00CB27CE /* NingGlobal.swift */; };
+		DA789D0624FE8DD700CB27CE /* UIColorExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = DA789CFD24FE8DD500CB27CE /* UIColorExtension.swift */; };
+		DA789D0724FE8DD700CB27CE /* DispatchQueueExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = DA789CFE24FE8DD500CB27CE /* DispatchQueueExtension.swift */; };
+		DA789D0824FE8DD700CB27CE /* ArrayExtensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = DA789CFF24FE8DD600CB27CE /* ArrayExtensions.swift */; };
+		DA789D0924FE8DD700CB27CE /* UIDeviceExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = DA789D0024FE8DD600CB27CE /* UIDeviceExtension.swift */; };
+		DA789D0A24FE8DD700CB27CE /* UIViewExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = DA789D0124FE8DD600CB27CE /* UIViewExtension.swift */; };
+		DA789D0B24FE8DD700CB27CE /* StringExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = DA789D0224FE8DD600CB27CE /* StringExtension.swift */; };
+		DA789D0C24FE8DD700CB27CE /* UIBarButtonItemExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = DA789D0324FE8DD600CB27CE /* UIBarButtonItemExtension.swift */; };
+		DA789D0D24FE8DD700CB27CE /* UIImageExtensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = DA789D0424FE8DD600CB27CE /* UIImageExtensions.swift */; };
+		DA789D0E24FE8DD700CB27CE /* DictionaryExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = DA789D0524FE8DD600CB27CE /* DictionaryExtension.swift */; };
+		DA789D3225012E5400CB27CE /* BasePageController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DA789D3125012E5400CB27CE /* BasePageController.swift */; };
+		DA789D34250130A500CB27CE /* NingArticleListController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DA789D33250130A500CB27CE /* NingArticleListController.swift */; };
+		DA789D3825013CD600CB27CE /* TopicHomeController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DA789D3725013CD600CB27CE /* TopicHomeController.swift */; };
+		DA789D3A25013CEB00CB27CE /* SiteHomeController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DA789D3925013CEB00CB27CE /* SiteHomeController.swift */; };
+		DA789D3C2501F29900CB27CE /* NingHotTopicController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DA789D3B2501F29900CB27CE /* NingHotTopicController.swift */; };
+		DA789D3E2501F2BC00CB27CE /* HotSiteController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DA789D3D2501F2BC00CB27CE /* HotSiteController.swift */; };
+		DA789D4225020C3400CB27CE /* ArticleApi.swift in Sources */ = {isa = PBXBuildFile; fileRef = DA789D4125020C3400CB27CE /* ArticleApi.swift */; };
+		DA789D452502780300CB27CE /* Article.swift in Sources */ = {isa = PBXBuildFile; fileRef = DA789D442502780300CB27CE /* Article.swift */; };
+		DA789D47250279F100CB27CE /* BaseObject.swift in Sources */ = {isa = PBXBuildFile; fileRef = DA789D46250279F100CB27CE /* BaseObject.swift */; };
+		DA789D49250280BA00CB27CE /* BaseApi.swift in Sources */ = {isa = PBXBuildFile; fileRef = DA789D48250280BA00CB27CE /* BaseApi.swift */; };
+		DA789D4F2502945B00CB27CE /* ArticleViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = DA789D4E2502945B00CB27CE /* ArticleViewCell.swift */; };
+		DA789D512502947900CB27CE /* BaseTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = DA789D502502947900CB27CE /* BaseTableViewCell.swift */; };
+		DA7B4028251B66D70059B404 /* AgreementView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DA7B4027251B66D70059B404 /* AgreementView.swift */; };
+		DA7B402A251B6E4C0059B404 /* UITextView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DA7B4029251B6E4C0059B404 /* UITextView.swift */; };
+		DA7B402E251B7D710059B404 /* AgreementDialog.swift in Sources */ = {isa = PBXBuildFile; fileRef = DA7B402D251B7D710059B404 /* AgreementDialog.swift */; };
+		DA7B4030251B9D660059B404 /* PreferenceManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = DA7B402F251B9D660059B404 /* PreferenceManager.swift */; };
+		DA7B4032251C4B4C0059B404 /* SignupApi.swift in Sources */ = {isa = PBXBuildFile; fileRef = DA7B4031251C4B4C0059B404 /* SignupApi.swift */; };
+		DA7B4034251C4CEE0059B404 /* NingColdTopicController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DA7B4033251C4CEE0059B404 /* NingColdTopicController.swift */; };
+		DA7B4036251C4D0C0059B404 /* ColdBaseController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DA7B4035251C4D0C0059B404 /* ColdBaseController.swift */; };
+		DA7B4038251C50050059B404 /* NingColdSourceCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = DA7B4037251C50050059B404 /* NingColdSourceCell.swift */; };
+		DA7B403A251CDDD00059B404 /* ColdSourceHeader.swift in Sources */ = {isa = PBXBuildFile; fileRef = DA7B4039251CDDD00059B404 /* ColdSourceHeader.swift */; };
+		DA7B403C251CDE2A0059B404 /* BaseCollectionReusableView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DA7B403B251CDE2A0059B404 /* BaseCollectionReusableView.swift */; };
+		DA7B403E251CE6070059B404 /* NingColdSiteController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DA7B403D251CE6070059B404 /* NingColdSiteController.swift */; };
+		DA7B4040251D90B30059B404 /* ColdPageHeader.swift in Sources */ = {isa = PBXBuildFile; fileRef = DA7B403F251D90B30059B404 /* ColdPageHeader.swift */; };
+		DA7DCFB32506352D00FB4B15 /* UserInfoController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DA7DCFB22506352C00FB4B15 /* UserInfoController.swift */; };
+		DA7DCFB52506429E00FB4B15 /* NingLateArticleListController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DA7DCFB42506429E00FB4B15 /* NingLateArticleListController.swift */; };
+		DA7DCFB72506496D00FB4B15 /* FavArticleListController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DA7DCFB62506496D00FB4B15 /* FavArticleListController.swift */; };
+		DA7DCFB9250649FB00FB4B15 /* AboutGuruController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DA7DCFB8250649FB00FB4B15 /* AboutGuruController.swift */; };
+		DA7DCFBB25066A0B00FB4B15 /* UserProfileView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DA7DCFBA25066A0B00FB4B15 /* UserProfileView.swift */; };
+		DA7DCFBD25066A2D00FB4B15 /* UserFieldView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DA7DCFBC25066A2D00FB4B15 /* UserFieldView.swift */; };
+		DA8D00F325138759000D55F4 /* TuikanApi.swift in Sources */ = {isa = PBXBuildFile; fileRef = DA8D00F225138759000D55F4 /* TuikanApi.swift */; };
+		DA8D00F52513A1D5000D55F4 /* FavCangHeader.swift in Sources */ = {isa = PBXBuildFile; fileRef = DA8D00F42513A1D5000D55F4 /* FavCangHeader.swift */; };
+		DA8D00FA2513B8EB000D55F4 /* NewTuikanView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DA8D00F92513B8EB000D55F4 /* NewTuikanView.swift */; };
+		DA8D00FC2513B9BE000D55F4 /* EditTuikanController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DA8D00FB2513B9BE000D55F4 /* EditTuikanController.swift */; };
+		DA8D00FE2514F44F000D55F4 /* NingTuikanArticleListController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DA8D00FD2514F44F000D55F4 /* NingTuikanArticleListController.swift */; };
+		DA8D0100251506B3000D55F4 /* ManageTuikanController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DA8D00FF251506B3000D55F4 /* ManageTuikanController.swift */; };
+		DA8D01022515AC6F000D55F4 /* ManageTuikanView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DA8D01012515AC6F000D55F4 /* ManageTuikanView.swift */; };
+		DA8D0104251645AF000D55F4 /* NingWebController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DA8D0103251645AF000D55F4 /* NingWebController.swift */; };
+		DA8D010A251769BA000D55F4 /* guru_start.png in Resources */ = {isa = PBXBuildFile; fileRef = DA8D0109251769BA000D55F4 /* guru_start.png */; };
+		DA8D01122517775E000D55F4 /* DiscoverySourceController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DA8D01112517775E000D55F4 /* DiscoverySourceController.swift */; };
+		DA8D0114251777C2000D55F4 /* DiscoverySiteController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DA8D0113251777C2000D55F4 /* DiscoverySiteController.swift */; };
+		DA8D0116251777D5000D55F4 /* DiscoveryTopicController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DA8D0115251777D5000D55F4 /* DiscoveryTopicController.swift */; };
+		DA8D011825177846000D55F4 /* CatSourceListController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DA8D011725177846000D55F4 /* CatSourceListController.swift */; };
+		DA9422D72556ECAE00DFB9BD /* NingSearchController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DA9422D62556ECAE00DFB9BD /* NingSearchController.swift */; };
+		DA94231A2558096A00DFB9BD /* NewKeywordController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DA9423192558096A00DFB9BD /* NewKeywordController.swift */; };
+		DA955349250DE98E0025AC63 /* BaseListController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DA955348250DE98E0025AC63 /* BaseListController.swift */; };
+		DA95534B250E55840025AC63 /* NingJuheArticleListController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DA95534A250E55840025AC63 /* NingJuheArticleListController.swift */; };
+		DA95534D250E5B140025AC63 /* DbManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = DA95534C250E5B140025AC63 /* DbManager.swift */; };
+		DA95534F250F1DED0025AC63 /* NingJuheSourceArticleHeader.swift in Sources */ = {isa = PBXBuildFile; fileRef = DA95534E250F1DED0025AC63 /* NingJuheSourceArticleHeader.swift */; };
+		DA955351250F23970025AC63 /* SourceUnreadCountDAO.swift in Sources */ = {isa = PBXBuildFile; fileRef = DA955350250F23970025AC63 /* SourceUnreadCountDAO.swift */; };
+		DA955353250F7A070025AC63 /* NingNewGroupController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DA955352250F7A070025AC63 /* NingNewGroupController.swift */; };
+		DA955355250F7A440025AC63 /* NingNewGroupView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DA955354250F7A440025AC63 /* NingNewGroupView.swift */; };
+		DA955357250FB1260025AC63 /* UserNameController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DA955356250FB1260025AC63 /* UserNameController.swift */; };
+		DA95535B250FC22B0025AC63 /* UserPasswordController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DA95535A250FC22B0025AC63 /* UserPasswordController.swift */; };
+		DAA9E03025072C5C00A9324F /* NingHotCategoryCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = DAA9E02F25072C5C00A9324F /* NingHotCategoryCell.swift */; };
+		DAA9E03225072C8600A9324F /* BaseCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = DAA9E03125072C8600A9324F /* BaseCollectionViewCell.swift */; };
+		DAA9E03425072F4E00A9324F /* SourceFollowCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = DAA9E03325072F4E00A9324F /* SourceFollowCell.swift */; };
+		DAA9E03725072FD600A9324F /* HotSourceController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DAA9E03625072FD600A9324F /* HotSourceController.swift */; };
+		DAA9E039250730D300A9324F /* SourceModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = DAA9E038250730D300A9324F /* SourceModel.swift */; };
+		DAA9E03B2507344700A9324F /* TopicApi.swift in Sources */ = {isa = PBXBuildFile; fileRef = DAA9E03A2507344700A9324F /* TopicApi.swift */; };
+		DAA9E03D2507345400A9324F /* SiteApi.swift in Sources */ = {isa = PBXBuildFile; fileRef = DAA9E03C2507345400A9324F /* SiteApi.swift */; };
+		DAA9E03F2507792D00A9324F /* SourceArticleListController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DAA9E03E2507792D00A9324F /* SourceArticleListController.swift */; };
+		DAA9E042250779EA00A9324F /* SourceArticleHeader.swift in Sources */ = {isa = PBXBuildFile; fileRef = DAA9E041250779EA00A9324F /* SourceArticleHeader.swift */; };
+		DAA9E04425077CF100A9324F /* NingSiteArticleListController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DAA9E04325077CF100A9324F /* NingSiteArticleListController.swift */; };
+		DAA9E04625077D0200A9324F /* NingTopicArticleListController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DAA9E04525077D0100A9324F /* NingTopicArticleListController.swift */; };
+		DAAA35332511D89300052857 /* TransferSourceController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DAAA35322511D89300052857 /* TransferSourceController.swift */; };
+		DAAA35352511D8A400052857 /* TransferGroupController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DAAA35342511D8A400052857 /* TransferGroupController.swift */; };
+		DAAA35372512508A00052857 /* NingGroupCangCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = DAAA35362512508A00052857 /* NingGroupCangCell.swift */; };
+		DAAA353925126B9900052857 /* FavArticleController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DAAA353825126B9900052857 /* FavArticleController.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		4849C8965D50B64C8F128059 /* Pods-ning.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ning.debug.xcconfig"; path = "Target Support Files/Pods-ning/Pods-ning.debug.xcconfig"; sourceTree = "<group>"; };
+		8E1AD40A255BFF0D007CE01C /* MemberController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MemberController.swift; sourceTree = "<group>"; };
+		8E1AD40E255BFFD8007CE01C /* MemberInfo.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MemberInfo.swift; sourceTree = "<group>"; };
+		8E1AD414255FA882007CE01C /* MemberView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MemberView.swift; sourceTree = "<group>"; };
+		8E1AD4182561200A007CE01C /* MemberPayView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MemberPayView.swift; sourceTree = "<group>"; };
+		8E1AD41B2561738B007CE01C /* member.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = member.png; sourceTree = "<group>"; };
+		8E2110FF256A832D00CC9FC9 /* abs_image_no.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = abs_image_no.png; sourceTree = "<group>"; };
+		8E211108256A836900CC9FC9 /* abs_image.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = abs_image.png; sourceTree = "<group>"; };
+		8E21112B256AA07000CC9FC9 /* MemberOrderDAO.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MemberOrderDAO.swift; sourceTree = "<group>"; };
+		8E21112F256AA15900CC9FC9 /* NingOrder.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NingOrder.swift; sourceTree = "<group>"; };
+		8E21113A25727D1E00CC9FC9 /* NingReceiptValidator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NingReceiptValidator.swift; sourceTree = "<group>"; };
+		8E5630B625402E2C00717259 /* UserEmailController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserEmailController.swift; sourceTree = "<group>"; };
+		8E5630B925402E6800717259 /* UserEmailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserEmailView.swift; sourceTree = "<group>"; };
+		8E919DA02535616D00E34D28 /* KingfisherExtension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KingfisherExtension.swift; sourceTree = "<group>"; };
+		8E919DC225357AF400E34D28 /* OauthInfo.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OauthInfo.swift; sourceTree = "<group>"; };
+		8E919DC62535F06500E34D28 /* UploadApi.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UploadApi.swift; sourceTree = "<group>"; };
+		B18DB2E9725BC2FED1413BD1 /* Pods-ning.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ning.release.xcconfig"; path = "Target Support Files/Pods-ning/Pods-ning.release.xcconfig"; sourceTree = "<group>"; };
+		BFE20B0CAFE53B3F05BAF724 /* Pods_ning.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_ning.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		DA0C169A25088F8F0000DF1E /* ArticleDetailHelper.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ArticleDetailHelper.swift; sourceTree = "<group>"; };
+		DA0C169C2508C6470000DF1E /* ArticleDetailOpHandler.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ArticleDetailOpHandler.swift; sourceTree = "<group>"; };
+		DA0C169E25091A710000DF1E /* NingGroupItemCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NingGroupItemCell.swift; sourceTree = "<group>"; };
+		DA0C16A025091AAF0000DF1E /* NingGroupHeaderCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NingGroupHeaderCell.swift; sourceTree = "<group>"; };
+		DA0C16A225091F6D0000DF1E /* NingMyGroupSourceController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NingMyGroupSourceController.swift; sourceTree = "<group>"; };
+		DA11EBA52555614A003B8758 /* KeywordListController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KeywordListController.swift; sourceTree = "<group>"; };
+		DA11EBA925556179003B8758 /* KeywordItemCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KeywordItemCell.swift; sourceTree = "<group>"; };
+		DA11EBAC255561A8003B8758 /* EmptyKeywordView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EmptyKeywordView.swift; sourceTree = "<group>"; };
+		DA11EBAF25556871003B8758 /* KeywordApi.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KeywordApi.swift; sourceTree = "<group>"; };
+		DA11EBB2255631EE003B8758 /* KeywordArticleListController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KeywordArticleListController.swift; sourceTree = "<group>"; };
+		DA2A3E2E2531B9EB0047F726 /* NewUserController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NewUserController.swift; sourceTree = "<group>"; };
+		DA2A3E312531BA330047F726 /* NewUserFormView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NewUserFormView.swift; sourceTree = "<group>"; };
+		DA2A3E342531F96E0047F726 /* AboutView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AboutView.swift; sourceTree = "<group>"; };
+		DA2A3E37253200340047F726 /* ArticleReadDAO.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ArticleReadDAO.swift; sourceTree = "<group>"; };
+		DA2A3E3A253203D20047F726 /* DateExtensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DateExtensions.swift; sourceTree = "<group>"; };
+		DA2C329A24FE469F00F66229 /* GuruReader.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = GuruReader.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		DA2C329D24FE469F00F66229 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		DA2C32A124FE469F00F66229 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		DA2C32A424FE469F00F66229 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		DA2C32A624FE46A600F66229 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		DA2C32A924FE46A600F66229 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		DA2C32AB24FE46A600F66229 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		DA2F3FE8251065920074E233 /* UserNameView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserNameView.swift; sourceTree = "<group>"; };
+		DA2F3FEA251068090074E233 /* UserPasswordView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserPasswordView.swift; sourceTree = "<group>"; };
+		DA2F3FEC251079730074E233 /* GroupApi.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GroupApi.swift; sourceTree = "<group>"; };
+		DA2F3FEE2510BEEC0074E233 /* EditGroupController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EditGroupController.swift; sourceTree = "<group>"; };
+		DA2F3FF22510E2500074E233 /* NingManageGroupCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NingManageGroupCell.swift; sourceTree = "<group>"; };
+		DA2F3FF42510E3D50074E233 /* ManageGroupController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ManageGroupController.swift; sourceTree = "<group>"; };
+		DA2F3FF62510E3F00074E233 /* NingManageGroupSourceController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NingManageGroupSourceController.swift; sourceTree = "<group>"; };
+		DA2F3FF82510FFEB0074E233 /* ManageGroupSourceCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ManageGroupSourceCell.swift; sourceTree = "<group>"; };
+		DA2F85492518628500035C83 /* ControllerUtils.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ControllerUtils.swift; sourceTree = "<group>"; };
+		DA2F854B2518AFDB00035C83 /* ning-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "ning-Bridging-Header.h"; sourceTree = "<group>"; };
+		DA4D7000250352AF00F9F477 /* NingArticleDetailController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NingArticleDetailController.swift; sourceTree = "<group>"; };
+		DA4D700325039DF200F9F477 /* UEmptyDataSet.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UEmptyDataSet.swift; sourceTree = "<group>"; };
+		DA4D700425039DF200F9F477 /* UCollectionViewAlignedLayout.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UCollectionViewAlignedLayout.swift; sourceTree = "<group>"; };
+		DA4D700525039DF200F9F477 /* ParallaxHeader.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ParallaxHeader.swift; sourceTree = "<group>"; };
+		DA4D700625039DF200F9F477 /* URefresh.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = URefresh.swift; sourceTree = "<group>"; };
+		DA4D700725039DF200F9F477 /* ParallaxHeaderMode.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ParallaxHeaderMode.swift; sourceTree = "<group>"; };
+		DA4D700825039DF200F9F477 /* UHairPowder.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UHairPowder.swift; sourceTree = "<group>"; };
+		DA4D700925039DF200F9F477 /* UCollectionViewSectionBackgroundLayout.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UCollectionViewSectionBackgroundLayout.swift; sourceTree = "<group>"; };
+		DA4D700A25039DF200F9F477 /* UIScrollView+ParallaxHeader.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIScrollView+ParallaxHeader.swift"; sourceTree = "<group>"; };
+		DA4D70142503CE1700F9F477 /* member.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = member.html; sourceTree = "<group>"; };
+		DA4D70762503CE1800F9F477 /* default.css */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.css; path = default.css; sourceTree = "<group>"; };
+		DA4D70772503CE1800F9F477 /* detail.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = detail.html; sourceTree = "<group>"; };
+		DA4D70E02503E4A100F9F477 /* ThemeManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ThemeManager.swift; sourceTree = "<group>"; };
+		DA4D70E3250496C300F9F477 /* MineHeaderView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MineHeaderView.swift; sourceTree = "<group>"; };
+		DA4D70E52504A52F00F9F477 /* NingUtils.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NingUtils.swift; sourceTree = "<group>"; };
+		DA4D70E72504A94700F9F477 /* UserDAO.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserDAO.swift; sourceTree = "<group>"; };
+		DA4D70E92504A96B00F9F477 /* UserInfo.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserInfo.swift; sourceTree = "<group>"; };
+		DA4D70EB2504AABB00F9F477 /* DAOFactory.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DAOFactory.swift; sourceTree = "<group>"; };
+		DA4D70ED2504AC6400F9F477 /* UserLoginController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserLoginController.swift; sourceTree = "<group>"; };
+		DA4D70F02504D0FC00F9F477 /* LoginView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginView.swift; sourceTree = "<group>"; };
+		DA4D70F22504D1E800F9F477 /* BaseView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BaseView.swift; sourceTree = "<group>"; };
+		DA4D70F4250501ED00F9F477 /* UserApi.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserApi.swift; sourceTree = "<group>"; };
+		DA6BD9A2255A7D1D00B8F284 /* KeywordRuleItemCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KeywordRuleItemCell.swift; sourceTree = "<group>"; };
+		DA6BD9A5255A7D5800B8F284 /* KeywordRuleHeader.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KeywordRuleHeader.swift; sourceTree = "<group>"; };
+		DA6BD9A8255A832100B8F284 /* Keyword.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Keyword.swift; sourceTree = "<group>"; };
+		DA789CE824FE703C00CB27CE /* HomeTabController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeTabController.swift; sourceTree = "<group>"; };
+		DA789CEA24FE709400CB27CE /* ArticleTabController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ArticleTabController.swift; sourceTree = "<group>"; };
+		DA789CEC24FE70C600CB27CE /* BaseViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BaseViewController.swift; sourceTree = "<group>"; };
+		DA789CEE24FE77A600CB27CE /* SubTabController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SubTabController.swift; sourceTree = "<group>"; };
+		DA789CF024FE77D100CB27CE /* SettingTabController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingTabController.swift; sourceTree = "<group>"; };
+		DA789CF224FE77E900CB27CE /* DiscoveryTabController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DiscoveryTabController.swift; sourceTree = "<group>"; };
+		DA789CF424FE80C800CB27CE /* NingNaviController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NingNaviController.swift; sourceTree = "<group>"; };
+		DA789CF624FE88AF00CB27CE /* NingGlobal.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NingGlobal.swift; sourceTree = "<group>"; };
+		DA789CFD24FE8DD500CB27CE /* UIColorExtension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UIColorExtension.swift; sourceTree = "<group>"; };
+		DA789CFE24FE8DD500CB27CE /* DispatchQueueExtension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DispatchQueueExtension.swift; sourceTree = "<group>"; };
+		DA789CFF24FE8DD600CB27CE /* ArrayExtensions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ArrayExtensions.swift; sourceTree = "<group>"; };
+		DA789D0024FE8DD600CB27CE /* UIDeviceExtension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UIDeviceExtension.swift; sourceTree = "<group>"; };
+		DA789D0124FE8DD600CB27CE /* UIViewExtension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UIViewExtension.swift; sourceTree = "<group>"; };
+		DA789D0224FE8DD600CB27CE /* StringExtension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = StringExtension.swift; sourceTree = "<group>"; };
+		DA789D0324FE8DD600CB27CE /* UIBarButtonItemExtension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UIBarButtonItemExtension.swift; sourceTree = "<group>"; };
+		DA789D0424FE8DD600CB27CE /* UIImageExtensions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UIImageExtensions.swift; sourceTree = "<group>"; };
+		DA789D0524FE8DD600CB27CE /* DictionaryExtension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DictionaryExtension.swift; sourceTree = "<group>"; };
+		DA789D3125012E5400CB27CE /* BasePageController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BasePageController.swift; sourceTree = "<group>"; };
+		DA789D33250130A500CB27CE /* NingArticleListController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NingArticleListController.swift; sourceTree = "<group>"; };
+		DA789D3725013CD600CB27CE /* TopicHomeController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TopicHomeController.swift; sourceTree = "<group>"; };
+		DA789D3925013CEB00CB27CE /* SiteHomeController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SiteHomeController.swift; sourceTree = "<group>"; };
+		DA789D3B2501F29900CB27CE /* NingHotTopicController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NingHotTopicController.swift; sourceTree = "<group>"; };
+		DA789D3D2501F2BC00CB27CE /* HotSiteController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HotSiteController.swift; sourceTree = "<group>"; };
+		DA789D4125020C3400CB27CE /* ArticleApi.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ArticleApi.swift; sourceTree = "<group>"; };
+		DA789D442502780300CB27CE /* Article.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Article.swift; sourceTree = "<group>"; };
+		DA789D46250279F100CB27CE /* BaseObject.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BaseObject.swift; sourceTree = "<group>"; };
+		DA789D48250280BA00CB27CE /* BaseApi.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BaseApi.swift; sourceTree = "<group>"; };
+		DA789D4E2502945B00CB27CE /* ArticleViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ArticleViewCell.swift; sourceTree = "<group>"; };
+		DA789D502502947900CB27CE /* BaseTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BaseTableViewCell.swift; sourceTree = "<group>"; };
+		DA7B4027251B66D70059B404 /* AgreementView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AgreementView.swift; sourceTree = "<group>"; };
+		DA7B4029251B6E4C0059B404 /* UITextView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UITextView.swift; sourceTree = "<group>"; };
+		DA7B402D251B7D710059B404 /* AgreementDialog.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AgreementDialog.swift; sourceTree = "<group>"; };
+		DA7B402F251B9D660059B404 /* PreferenceManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PreferenceManager.swift; sourceTree = "<group>"; };
+		DA7B4031251C4B4C0059B404 /* SignupApi.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignupApi.swift; sourceTree = "<group>"; };
+		DA7B4033251C4CEE0059B404 /* NingColdTopicController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NingColdTopicController.swift; sourceTree = "<group>"; };
+		DA7B4035251C4D0C0059B404 /* ColdBaseController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ColdBaseController.swift; sourceTree = "<group>"; };
+		DA7B4037251C50050059B404 /* NingColdSourceCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NingColdSourceCell.swift; sourceTree = "<group>"; };
+		DA7B4039251CDDD00059B404 /* ColdSourceHeader.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ColdSourceHeader.swift; sourceTree = "<group>"; };
+		DA7B403B251CDE2A0059B404 /* BaseCollectionReusableView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BaseCollectionReusableView.swift; sourceTree = "<group>"; };
+		DA7B403D251CE6070059B404 /* NingColdSiteController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NingColdSiteController.swift; sourceTree = "<group>"; };
+		DA7B403F251D90B30059B404 /* ColdPageHeader.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ColdPageHeader.swift; sourceTree = "<group>"; };
+		DA7DCFB22506352C00FB4B15 /* UserInfoController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserInfoController.swift; sourceTree = "<group>"; };
+		DA7DCFB42506429E00FB4B15 /* NingLateArticleListController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NingLateArticleListController.swift; sourceTree = "<group>"; };
+		DA7DCFB62506496D00FB4B15 /* FavArticleListController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FavArticleListController.swift; sourceTree = "<group>"; };
+		DA7DCFB8250649FB00FB4B15 /* AboutGuruController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AboutGuruController.swift; sourceTree = "<group>"; };
+		DA7DCFBA25066A0B00FB4B15 /* UserProfileView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserProfileView.swift; sourceTree = "<group>"; };
+		DA7DCFBC25066A2D00FB4B15 /* UserFieldView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserFieldView.swift; sourceTree = "<group>"; };
+		DA8D00F225138759000D55F4 /* TuikanApi.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TuikanApi.swift; sourceTree = "<group>"; };
+		DA8D00F42513A1D5000D55F4 /* FavCangHeader.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FavCangHeader.swift; sourceTree = "<group>"; };
+		DA8D00F92513B8EB000D55F4 /* NewTuikanView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NewTuikanView.swift; sourceTree = "<group>"; };
+		DA8D00FB2513B9BE000D55F4 /* EditTuikanController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EditTuikanController.swift; sourceTree = "<group>"; };
+		DA8D00FD2514F44F000D55F4 /* NingTuikanArticleListController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NingTuikanArticleListController.swift; sourceTree = "<group>"; };
+		DA8D00FF251506B3000D55F4 /* ManageTuikanController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ManageTuikanController.swift; sourceTree = "<group>"; };
+		DA8D01012515AC6F000D55F4 /* ManageTuikanView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ManageTuikanView.swift; sourceTree = "<group>"; };
+		DA8D0103251645AF000D55F4 /* NingWebController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NingWebController.swift; sourceTree = "<group>"; };
+		DA8D0109251769BA000D55F4 /* guru_start.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = guru_start.png; sourceTree = "<group>"; };
+		DA8D01112517775E000D55F4 /* DiscoverySourceController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DiscoverySourceController.swift; sourceTree = "<group>"; };
+		DA8D0113251777C2000D55F4 /* DiscoverySiteController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DiscoverySiteController.swift; sourceTree = "<group>"; };
+		DA8D0115251777D5000D55F4 /* DiscoveryTopicController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DiscoveryTopicController.swift; sourceTree = "<group>"; };
+		DA8D011725177846000D55F4 /* CatSourceListController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CatSourceListController.swift; sourceTree = "<group>"; };
+		DA9422D62556ECAE00DFB9BD /* NingSearchController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NingSearchController.swift; sourceTree = "<group>"; };
+		DA9423192558096A00DFB9BD /* NewKeywordController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NewKeywordController.swift; sourceTree = "<group>"; };
+		DA955348250DE98E0025AC63 /* BaseListController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BaseListController.swift; sourceTree = "<group>"; };
+		DA95534A250E55840025AC63 /* NingJuheArticleListController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NingJuheArticleListController.swift; sourceTree = "<group>"; };
+		DA95534C250E5B140025AC63 /* DbManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DbManager.swift; sourceTree = "<group>"; };
+		DA95534E250F1DED0025AC63 /* NingJuheSourceArticleHeader.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NingJuheSourceArticleHeader.swift; sourceTree = "<group>"; };
+		DA955350250F23970025AC63 /* SourceUnreadCountDAO.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SourceUnreadCountDAO.swift; sourceTree = "<group>"; };
+		DA955352250F7A070025AC63 /* NingNewGroupController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NingNewGroupController.swift; sourceTree = "<group>"; };
+		DA955354250F7A440025AC63 /* NingNewGroupView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NingNewGroupView.swift; sourceTree = "<group>"; };
+		DA955356250FB1260025AC63 /* UserNameController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserNameController.swift; sourceTree = "<group>"; };
+		DA95535A250FC22B0025AC63 /* UserPasswordController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserPasswordController.swift; sourceTree = "<group>"; };
+		DAA9E02F25072C5C00A9324F /* NingHotCategoryCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NingHotCategoryCell.swift; sourceTree = "<group>"; };
+		DAA9E03125072C8600A9324F /* BaseCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BaseCollectionViewCell.swift; sourceTree = "<group>"; };
+		DAA9E03325072F4E00A9324F /* SourceFollowCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SourceFollowCell.swift; sourceTree = "<group>"; };
+		DAA9E03625072FD600A9324F /* HotSourceController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HotSourceController.swift; sourceTree = "<group>"; };
+		DAA9E038250730D300A9324F /* SourceModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SourceModel.swift; sourceTree = "<group>"; };
+		DAA9E03A2507344700A9324F /* TopicApi.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TopicApi.swift; sourceTree = "<group>"; };
+		DAA9E03C2507345400A9324F /* SiteApi.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SiteApi.swift; sourceTree = "<group>"; };
+		DAA9E03E2507792D00A9324F /* SourceArticleListController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SourceArticleListController.swift; sourceTree = "<group>"; };
+		DAA9E041250779EA00A9324F /* SourceArticleHeader.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SourceArticleHeader.swift; sourceTree = "<group>"; };
+		DAA9E04325077CF100A9324F /* NingSiteArticleListController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NingSiteArticleListController.swift; sourceTree = "<group>"; };
+		DAA9E04525077D0100A9324F /* NingTopicArticleListController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NingTopicArticleListController.swift; sourceTree = "<group>"; };
+		DAAA35322511D89300052857 /* TransferSourceController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TransferSourceController.swift; sourceTree = "<group>"; };
+		DAAA35342511D8A400052857 /* TransferGroupController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TransferGroupController.swift; sourceTree = "<group>"; };
+		DAAA35362512508A00052857 /* NingGroupCangCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NingGroupCangCell.swift; sourceTree = "<group>"; };
+		DAAA353825126B9900052857 /* FavArticleController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FavArticleController.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		DA2C329724FE469F00F66229 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				78FF76E2166DE6BD88EE23AA /* Pods_ning.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		08487B66F3088BD3BAE3C431 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				4849C8965D50B64C8F128059 /* Pods-ning.debug.xcconfig */,
+				B18DB2E9725BC2FED1413BD1 /* Pods-ning.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		0D7DC1E2CBE04AE6905910B4 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				BFE20B0CAFE53B3F05BAF724 /* Pods_ning.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		8E1AD409255BFEE2007CE01C /* Member */ = {
+			isa = PBXGroup;
+			children = (
+				8E1AD40A255BFF0D007CE01C /* MemberController.swift */,
+			);
+			path = Member;
+			sourceTree = "<group>";
+		};
+		DA11EBA325556101003B8758 /* Keyword */ = {
+			isa = PBXGroup;
+			children = (
+				DA11EBA52555614A003B8758 /* KeywordListController.swift */,
+				DA11EBB2255631EE003B8758 /* KeywordArticleListController.swift */,
+				DA9423192558096A00DFB9BD /* NewKeywordController.swift */,
+			);
+			path = Keyword;
+			sourceTree = "<group>";
+		};
+		DA11EBA825556160003B8758 /* Keyword */ = {
+			isa = PBXGroup;
+			children = (
+				DA11EBA925556179003B8758 /* KeywordItemCell.swift */,
+				DA11EBAC255561A8003B8758 /* EmptyKeywordView.swift */,
+				DA6BD9A2255A7D1D00B8F284 /* KeywordRuleItemCell.swift */,
+				DA6BD9A5255A7D5800B8F284 /* KeywordRuleHeader.swift */,
+			);
+			path = Keyword;
+			sourceTree = "<group>";
+		};
+		DA2C329124FE469F00F66229 = {
+			isa = PBXGroup;
+			children = (
+				DA2C329C24FE469F00F66229 /* ning */,
+				DA2C329B24FE469F00F66229 /* Products */,
+				08487B66F3088BD3BAE3C431 /* Pods */,
+				0D7DC1E2CBE04AE6905910B4 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		DA2C329B24FE469F00F66229 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				DA2C329A24FE469F00F66229 /* GuruReader.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		DA2C329C24FE469F00F66229 /* ning */ = {
+			isa = PBXGroup;
+			children = (
+				DA4D70132503CE1700F9F477 /* Resources */,
+				DA789D4C2502940000CB27CE /* View */,
+				DA789D43250277EF00CB27CE /* Model */,
+				DA789D4025020C1A00CB27CE /* DAO */,
+				DA789D3F25020C1400CB27CE /* API */,
+				DA789CF824FE8C1B00CB27CE /* Common */,
+				DA789CE024FE6F4E00CB27CE /* Controller */,
+				DA2C329D24FE469F00F66229 /* AppDelegate.swift */,
+				DA2C32A124FE469F00F66229 /* ViewController.swift */,
+				DA2C32A324FE469F00F66229 /* Main.storyboard */,
+				DA2C32A624FE46A600F66229 /* Assets.xcassets */,
+				DA2C32A824FE46A600F66229 /* LaunchScreen.storyboard */,
+				DA2C32AB24FE46A600F66229 /* Info.plist */,
+				DA789CF624FE88AF00CB27CE /* NingGlobal.swift */,
+				DA2F854B2518AFDB00035C83 /* ning-Bridging-Header.h */,
+				8E21113A25727D1E00CC9FC9 /* NingReceiptValidator.swift */,
+			);
+			path = ning;
+			sourceTree = "<group>";
+		};
+		DA2F854825185DAE00035C83 /* Other */ = {
+			isa = PBXGroup;
+			children = (
+				DA8D0103251645AF000D55F4 /* NingWebController.swift */,
+				DA2F85492518628500035C83 /* ControllerUtils.swift */,
+				DA7B402D251B7D710059B404 /* AgreementDialog.swift */,
+			);
+			path = Other;
+			sourceTree = "<group>";
+		};
+		DA4D700225039D8400F9F477 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				DA4D700525039DF200F9F477 /* ParallaxHeader.swift */,
+				DA4D700725039DF200F9F477 /* ParallaxHeaderMode.swift */,
+				DA4D700425039DF200F9F477 /* UCollectionViewAlignedLayout.swift */,
+				DA4D700925039DF200F9F477 /* UCollectionViewSectionBackgroundLayout.swift */,
+				DA4D700325039DF200F9F477 /* UEmptyDataSet.swift */,
+				DA4D700825039DF200F9F477 /* UHairPowder.swift */,
+				DA4D700A25039DF200F9F477 /* UIScrollView+ParallaxHeader.swift */,
+				DA4D700625039DF200F9F477 /* URefresh.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		DA4D70132503CE1700F9F477 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				DA4D70142503CE1700F9F477 /* member.html */,
+				DA4D70162503CE1700F9F477 /* images */,
+				DA4D70762503CE1800F9F477 /* default.css */,
+				DA4D70772503CE1800F9F477 /* detail.html */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		DA4D70162503CE1700F9F477 /* images */ = {
+			isa = PBXGroup;
+			children = (
+				8E2110FF256A832D00CC9FC9 /* abs_image_no.png */,
+				8E1AD41B2561738B007CE01C /* member.png */,
+				8E211108256A836900CC9FC9 /* abs_image.png */,
+				DA8D0109251769BA000D55F4 /* guru_start.png */,
+			);
+			path = images;
+			sourceTree = "<group>";
+		};
+		DA4D70DF2503E48F00F9F477 /* Util */ = {
+			isa = PBXGroup;
+			children = (
+				DA4D70E02503E4A100F9F477 /* ThemeManager.swift */,
+				DA4D70E52504A52F00F9F477 /* NingUtils.swift */,
+				DA7B402F251B9D660059B404 /* PreferenceManager.swift */,
+			);
+			path = Util;
+			sourceTree = "<group>";
+		};
+		DA4D70E22504969B00F9F477 /* Mine */ = {
+			isa = PBXGroup;
+			children = (
+				DA4D70E3250496C300F9F477 /* MineHeaderView.swift */,
+				DA7B4027251B66D70059B404 /* AgreementView.swift */,
+			);
+			path = Mine;
+			sourceTree = "<group>";
+		};
+		DA4D70EF2504D0E700F9F477 /* User */ = {
+			isa = PBXGroup;
+			children = (
+				DA4D70F02504D0FC00F9F477 /* LoginView.swift */,
+				DA7DCFBA25066A0B00FB4B15 /* UserProfileView.swift */,
+				DA7DCFBC25066A2D00FB4B15 /* UserFieldView.swift */,
+				DA2F3FE8251065920074E233 /* UserNameView.swift */,
+				DA2F3FEA251068090074E233 /* UserPasswordView.swift */,
+				DA2A3E312531BA330047F726 /* NewUserFormView.swift */,
+				DA2A3E342531F96E0047F726 /* AboutView.swift */,
+				8E5630B925402E6800717259 /* UserEmailView.swift */,
+				8E1AD414255FA882007CE01C /* MemberView.swift */,
+				8E1AD4182561200A007CE01C /* MemberPayView.swift */,
+			);
+			path = User;
+			sourceTree = "<group>";
+		};
+		DA789CE024FE6F4E00CB27CE /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				8E1AD409255BFEE2007CE01C /* Member */,
+				DA789CE224FE6FAD00CB27CE /* Article */,
+				DA789CE124FE6F8200CB27CE /* Base */,
+				DAA9E0402507793200A9324F /* Detail */,
+				DA789CE424FE6FC700CB27CE /* Discovery */,
+				DA789CE824FE703C00CB27CE /* HomeTabController.swift */,
+				DA11EBA325556101003B8758 /* Keyword */,
+				DA789CF424FE80C800CB27CE /* NingNaviController.swift */,
+				DA2F854825185DAE00035C83 /* Other */,
+				DA9422D52556EC7F00DFB9BD /* Search */,
+				DA789CE624FE6FFA00CB27CE /* Setting */,
+				DA789D3625013CA600CB27CE /* Site */,
+				DAA9E03525072F8600A9324F /* Source */,
+				DA789CE324FE6FB600CB27CE /* Sub */,
+				DA789D3525013C9D00CB27CE /* Topic */,
+				DA8D00F62513B224000D55F4 /* Tuikan */,
+				DA789CE724FE700200CB27CE /* User */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		DA789CE124FE6F8200CB27CE /* Base */ = {
+			isa = PBXGroup;
+			children = (
+				DA789CEC24FE70C600CB27CE /* BaseViewController.swift */,
+				DA789D3125012E5400CB27CE /* BasePageController.swift */,
+				DA955348250DE98E0025AC63 /* BaseListController.swift */,
+			);
+			path = Base;
+			sourceTree = "<group>";
+		};
+		DA789CE224FE6FAD00CB27CE /* Article */ = {
+			isa = PBXGroup;
+			children = (
+				DA789CEA24FE709400CB27CE /* ArticleTabController.swift */,
+				DA789D33250130A500CB27CE /* NingArticleListController.swift */,
+				DA7DCFB42506429E00FB4B15 /* NingLateArticleListController.swift */,
+				DAA9E03E2507792D00A9324F /* SourceArticleListController.swift */,
+				DAA9E04325077CF100A9324F /* NingSiteArticleListController.swift */,
+				DAA9E04525077D0100A9324F /* NingTopicArticleListController.swift */,
+				DA7DCFB62506496D00FB4B15 /* FavArticleListController.swift */,
+			);
+			path = Article;
+			sourceTree = "<group>";
+		};
+		DA789CE324FE6FB600CB27CE /* Sub */ = {
+			isa = PBXGroup;
+			children = (
+				DA789CEE24FE77A600CB27CE /* SubTabController.swift */,
+			);
+			path = Sub;
+			sourceTree = "<group>";
+		};
+		DA789CE424FE6FC700CB27CE /* Discovery */ = {
+			isa = PBXGroup;
+			children = (
+				DA789CF224FE77E900CB27CE /* DiscoveryTabController.swift */,
+				DA8D01112517775E000D55F4 /* DiscoverySourceController.swift */,
+				DA8D0113251777C2000D55F4 /* DiscoverySiteController.swift */,
+				DA8D0115251777D5000D55F4 /* DiscoveryTopicController.swift */,
+				DA8D011725177846000D55F4 /* CatSourceListController.swift */,
+			);
+			path = Discovery;
+			sourceTree = "<group>";
+		};
+		DA789CE624FE6FFA00CB27CE /* Setting */ = {
+			isa = PBXGroup;
+			children = (
+				DA789CF024FE77D100CB27CE /* SettingTabController.swift */,
+				DA7DCFB8250649FB00FB4B15 /* AboutGuruController.swift */,
+			);
+			path = Setting;
+			sourceTree = "<group>";
+		};
+		DA789CE724FE700200CB27CE /* User */ = {
+			isa = PBXGroup;
+			children = (
+				DA4D70ED2504AC6400F9F477 /* UserLoginController.swift */,
+				DA7DCFB22506352C00FB4B15 /* UserInfoController.swift */,
+				DA955356250FB1260025AC63 /* UserNameController.swift */,
+				DA95535A250FC22B0025AC63 /* UserPasswordController.swift */,
+				DA7B4033251C4CEE0059B404 /* NingColdTopicController.swift */,
+				DA7B4035251C4D0C0059B404 /* ColdBaseController.swift */,
+				DA7B403D251CE6070059B404 /* NingColdSiteController.swift */,
+				DA2A3E2E2531B9EB0047F726 /* NewUserController.swift */,
+				8E5630B625402E2C00717259 /* UserEmailController.swift */,
+			);
+			path = User;
+			sourceTree = "<group>";
+		};
+		DA789CF824FE8C1B00CB27CE /* Common */ = {
+			isa = PBXGroup;
+			children = (
+				DA4D70DF2503E48F00F9F477 /* Util */,
+				DA4D700225039D8400F9F477 /* View */,
+				DA789CFA24FE8C3A00CB27CE /* Extension */,
+			);
+			path = Common;
+			sourceTree = "<group>";
+		};
+		DA789CFA24FE8C3A00CB27CE /* Extension */ = {
+			isa = PBXGroup;
+			children = (
+				DA789CFF24FE8DD600CB27CE /* ArrayExtensions.swift */,
+				DA789D0524FE8DD600CB27CE /* DictionaryExtension.swift */,
+				DA789CFE24FE8DD500CB27CE /* DispatchQueueExtension.swift */,
+				DA789D0224FE8DD600CB27CE /* StringExtension.swift */,
+				DA789D0324FE8DD600CB27CE /* UIBarButtonItemExtension.swift */,
+				DA789CFD24FE8DD500CB27CE /* UIColorExtension.swift */,
+				DA789D0024FE8DD600CB27CE /* UIDeviceExtension.swift */,
+				DA789D0424FE8DD600CB27CE /* UIImageExtensions.swift */,
+				DA789D0124FE8DD600CB27CE /* UIViewExtension.swift */,
+				DA7B4029251B6E4C0059B404 /* UITextView.swift */,
+				DA2A3E3A253203D20047F726 /* DateExtensions.swift */,
+				8E919DA02535616D00E34D28 /* KingfisherExtension.swift */,
+			);
+			path = Extension;
+			sourceTree = "<group>";
+		};
+		DA789D3525013C9D00CB27CE /* Topic */ = {
+			isa = PBXGroup;
+			children = (
+				DA789D3725013CD600CB27CE /* TopicHomeController.swift */,
+				DA789D3B2501F29900CB27CE /* NingHotTopicController.swift */,
+			);
+			path = Topic;
+			sourceTree = "<group>";
+		};
+		DA789D3625013CA600CB27CE /* Site */ = {
+			isa = PBXGroup;
+			children = (
+				DA789D3925013CEB00CB27CE /* SiteHomeController.swift */,
+				DA789D3D2501F2BC00CB27CE /* HotSiteController.swift */,
+			);
+			path = Site;
+			sourceTree = "<group>";
+		};
+		DA789D3F25020C1400CB27CE /* API */ = {
+			isa = PBXGroup;
+			children = (
+				DA789D4125020C3400CB27CE /* ArticleApi.swift */,
+				DA789D48250280BA00CB27CE /* BaseApi.swift */,
+				DA2F3FEC251079730074E233 /* GroupApi.swift */,
+				DA11EBAF25556871003B8758 /* KeywordApi.swift */,
+				DA7B4031251C4B4C0059B404 /* SignupApi.swift */,
+				DAA9E03C2507345400A9324F /* SiteApi.swift */,
+				DAA9E03A2507344700A9324F /* TopicApi.swift */,
+				DA8D00F225138759000D55F4 /* TuikanApi.swift */,
+				8E919DC62535F06500E34D28 /* UploadApi.swift */,
+				DA4D70F4250501ED00F9F477 /* UserApi.swift */,
+			);
+			path = API;
+			sourceTree = "<group>";
+		};
+		DA789D4025020C1A00CB27CE /* DAO */ = {
+			isa = PBXGroup;
+			children = (
+				DA4D70E72504A94700F9F477 /* UserDAO.swift */,
+				DA4D70EB2504AABB00F9F477 /* DAOFactory.swift */,
+				DA95534C250E5B140025AC63 /* DbManager.swift */,
+				DA955350250F23970025AC63 /* SourceUnreadCountDAO.swift */,
+				DA2A3E37253200340047F726 /* ArticleReadDAO.swift */,
+				8E21112B256AA07000CC9FC9 /* MemberOrderDAO.swift */,
+			);
+			path = DAO;
+			sourceTree = "<group>";
+		};
+		DA789D43250277EF00CB27CE /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				DA789D442502780300CB27CE /* Article.swift */,
+				DA789D46250279F100CB27CE /* BaseObject.swift */,
+				DA4D70E92504A96B00F9F477 /* UserInfo.swift */,
+				DAA9E038250730D300A9324F /* SourceModel.swift */,
+				8E919DC225357AF400E34D28 /* OauthInfo.swift */,
+				DA6BD9A8255A832100B8F284 /* Keyword.swift */,
+				8E1AD40E255BFFD8007CE01C /* MemberInfo.swift */,
+				8E21112F256AA15900CC9FC9 /* NingOrder.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		DA789D4C2502940000CB27CE /* View */ = {
+			isa = PBXGroup;
+			children = (
+				DA789D4D2502942100CB27CE /* Article */,
+				DA7B403B251CDE2A0059B404 /* BaseCollectionReusableView.swift */,
+				DAA9E03125072C8600A9324F /* BaseCollectionViewCell.swift */,
+				DA789D502502947900CB27CE /* BaseTableViewCell.swift */,
+				DA4D70F22504D1E800F9F477 /* BaseView.swift */,
+				DA11EBA825556160003B8758 /* Keyword */,
+				DA4D70E22504969B00F9F477 /* Mine */,
+				DAA9E02E25072C0900A9324F /* Source */,
+				DA4D70EF2504D0E700F9F477 /* User */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		DA789D4D2502942100CB27CE /* Article */ = {
+			isa = PBXGroup;
+			children = (
+				DA789D4E2502945B00CB27CE /* ArticleViewCell.swift */,
+				DA8D00F42513A1D5000D55F4 /* FavCangHeader.swift */,
+				DA8D00F92513B8EB000D55F4 /* NewTuikanView.swift */,
+				DA8D01012515AC6F000D55F4 /* ManageTuikanView.swift */,
+			);
+			path = Article;
+			sourceTree = "<group>";
+		};
+		DA8D00F62513B224000D55F4 /* Tuikan */ = {
+			isa = PBXGroup;
+			children = (
+				DA8D00FB2513B9BE000D55F4 /* EditTuikanController.swift */,
+				DA8D00FD2514F44F000D55F4 /* NingTuikanArticleListController.swift */,
+				DA8D00FF251506B3000D55F4 /* ManageTuikanController.swift */,
+			);
+			path = Tuikan;
+			sourceTree = "<group>";
+		};
+		DA9422D52556EC7F00DFB9BD /* Search */ = {
+			isa = PBXGroup;
+			children = (
+				DA9422D62556ECAE00DFB9BD /* NingSearchController.swift */,
+			);
+			path = Search;
+			sourceTree = "<group>";
+		};
+		DAA9E02E25072C0900A9324F /* Source */ = {
+			isa = PBXGroup;
+			children = (
+				DA7B403F251D90B30059B404 /* ColdPageHeader.swift */,
+				DA7B4037251C50050059B404 /* NingColdSourceCell.swift */,
+				DA7B4039251CDDD00059B404 /* ColdSourceHeader.swift */,
+				DAAA35362512508A00052857 /* NingGroupCangCell.swift */,
+				DA0C16A025091AAF0000DF1E /* NingGroupHeaderCell.swift */,
+				DA95534E250F1DED0025AC63 /* NingJuheSourceArticleHeader.swift */,
+				DA2F3FF22510E2500074E233 /* NingManageGroupCell.swift */,
+				DA2F3FF82510FFEB0074E233 /* ManageGroupSourceCell.swift */,
+				DA955354250F7A440025AC63 /* NingNewGroupView.swift */,
+				DA0C169E25091A710000DF1E /* NingGroupItemCell.swift */,
+				DAA9E02F25072C5C00A9324F /* NingHotCategoryCell.swift */,
+				DAA9E041250779EA00A9324F /* SourceArticleHeader.swift */,
+				DAA9E03325072F4E00A9324F /* SourceFollowCell.swift */,
+			);
+			path = Source;
+			sourceTree = "<group>";
+		};
+		DAA9E03525072F8600A9324F /* Source */ = {
+			isa = PBXGroup;
+			children = (
+				DA2F3FEE2510BEEC0074E233 /* EditGroupController.swift */,
+				DAA9E03625072FD600A9324F /* HotSourceController.swift */,
+				DA95534A250E55840025AC63 /* NingJuheArticleListController.swift */,
+				DA2F3FF42510E3D50074E233 /* ManageGroupController.swift */,
+				DA2F3FF62510E3F00074E233 /* NingManageGroupSourceController.swift */,
+				DA0C16A225091F6D0000DF1E /* NingMyGroupSourceController.swift */,
+				DA955352250F7A070025AC63 /* NingNewGroupController.swift */,
+				DAAA35342511D8A400052857 /* TransferGroupController.swift */,
+				DAAA35322511D89300052857 /* TransferSourceController.swift */,
+			);
+			path = Source;
+			sourceTree = "<group>";
+		};
+		DAA9E0402507793200A9324F /* Detail */ = {
+			isa = PBXGroup;
+			children = (
+				DA4D7000250352AF00F9F477 /* NingArticleDetailController.swift */,
+				DA0C169A25088F8F0000DF1E /* ArticleDetailHelper.swift */,
+				DA0C169C2508C6470000DF1E /* ArticleDetailOpHandler.swift */,
+				DAAA353825126B9900052857 /* FavArticleController.swift */,
+			);
+			path = Detail;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		DA2C329924FE469F00F66229 /* ning */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DA2C32AE24FE46A600F66229 /* Build configuration list for PBXNativeTarget "ning" */;
+			buildPhases = (
+				4C1857E054BA79E7F8F4B237 /* [CP] Check Pods Manifest.lock */,
+				DA2C329624FE469F00F66229 /* Sources */,
+				DA2C329724FE469F00F66229 /* Frameworks */,
+				DA2C329824FE469F00F66229 /* Resources */,
+				3956787379DED3F9B93AF308 /* [CP] Embed Pods Frameworks */,
+				1CF11EC71613217BE1736868 /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = ning;
+			productName = ning;
+			productReference = DA2C329A24FE469F00F66229 /* GuruReader.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		DA2C329224FE469F00F66229 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1150;
+				LastUpgradeCheck = 1150;
+				ORGANIZATIONNAME = tuicool;
+				TargetAttributes = {
+					DA2C329924FE469F00F66229 = {
+						CreatedOnToolsVersion = 11.5;
+					};
+				};
+			};
+			buildConfigurationList = DA2C329524FE469F00F66229 /* Build configuration list for PBXProject "ning" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = DA2C329124FE469F00F66229;
+			productRefGroup = DA2C329B24FE469F00F66229 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				DA2C329924FE469F00F66229 /* ning */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		DA2C329824FE469F00F66229 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DA2C32AA24FE46A600F66229 /* LaunchScreen.storyboard in Resources */,
+				DA4D70DC2503CE1800F9F477 /* detail.html in Resources */,
+				8E211109256A836900CC9FC9 /* abs_image.png in Resources */,
+				8E211100256A832D00CC9FC9 /* abs_image_no.png in Resources */,
+				DA2C32A724FE46A600F66229 /* Assets.xcassets in Resources */,
+				DA2C32A524FE469F00F66229 /* Main.storyboard in Resources */,
+				8E1AD41C2561738B007CE01C /* member.png in Resources */,
+				DA4D707A2503CE1800F9F477 /* member.html in Resources */,
+				DA4D70DB2503CE1800F9F477 /* default.css in Resources */,
+				DA8D010A251769BA000D55F4 /* guru_start.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		1CF11EC71613217BE1736868 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-ning/Pods-ning-resources-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Copy Pods Resources";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-ning/Pods-ning-resources-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-ning/Pods-ning-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		3956787379DED3F9B93AF308 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-ning/Pods-ning-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-ning/Pods-ning-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-ning/Pods-ning-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		4C1857E054BA79E7F8F4B237 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-ning-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		DA2C329624FE469F00F66229 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DA4D701125039DF200F9F477 /* UCollectionViewSectionBackgroundLayout.swift in Sources */,
+				DA789CF724FE88AF00CB27CE /* NingGlobal.swift in Sources */,
+				8E211130256AA15900CC9FC9 /* NingOrder.swift in Sources */,
+				DA4D700B25039DF200F9F477 /* UEmptyDataSet.swift in Sources */,
+				DA95535B250FC22B0025AC63 /* UserPasswordController.swift in Sources */,
+				DA7B4028251B66D70059B404 /* AgreementView.swift in Sources */,
+				DA2F3FF72510E3F00074E233 /* NingManageGroupSourceController.swift in Sources */,
+				DA789D0824FE8DD700CB27CE /* ArrayExtensions.swift in Sources */,
+				DA789D452502780300CB27CE /* Article.swift in Sources */,
+				DA8D00FC2513B9BE000D55F4 /* EditTuikanController.swift in Sources */,
+				DA2C32A224FE469F00F66229 /* ViewController.swift in Sources */,
+				DA0C169F25091A710000DF1E /* NingGroupItemCell.swift in Sources */,
+				DA4D70EE2504AC6400F9F477 /* UserLoginController.swift in Sources */,
+				DA0C16A325091F6D0000DF1E /* NingMyGroupSourceController.swift in Sources */,
+				DA4D70E4250496C300F9F477 /* MineHeaderView.swift in Sources */,
+				DAA9E03B2507344700A9324F /* TopicApi.swift in Sources */,
+				8E919DA12535616D00E34D28 /* KingfisherExtension.swift in Sources */,
+				8E5630BA25402E6800717259 /* UserEmailView.swift in Sources */,
+				DA789CF524FE80C800CB27CE /* NingNaviController.swift in Sources */,
+				DA789CF324FE77E900CB27CE /* DiscoveryTabController.swift in Sources */,
+				DA9422D72556ECAE00DFB9BD /* NingSearchController.swift in Sources */,
+				DA789D4225020C3400CB27CE /* ArticleApi.swift in Sources */,
+				DA4D70F5250501ED00F9F477 /* UserApi.swift in Sources */,
+				8E919DC325357AF400E34D28 /* OauthInfo.swift in Sources */,
+				DA955355250F7A440025AC63 /* NingNewGroupView.swift in Sources */,
+				DA789CEB24FE709400CB27CE /* ArticleTabController.swift in Sources */,
+				DA6BD9A9255A832100B8F284 /* Keyword.swift in Sources */,
+				DA11EBA62555614A003B8758 /* KeywordListController.swift in Sources */,
+				DA2F3FEB251068090074E233 /* UserPasswordView.swift in Sources */,
+				DA11EBAA25556179003B8758 /* KeywordItemCell.swift in Sources */,
+				DA2F3FEF2510BEEC0074E233 /* EditGroupController.swift in Sources */,
+				DA789D3E2501F2BC00CB27CE /* HotSiteController.swift in Sources */,
+				DAA9E042250779EA00A9324F /* SourceArticleHeader.swift in Sources */,
+				DA4D70E62504A52F00F9F477 /* NingUtils.swift in Sources */,
+				8E1AD415255FA882007CE01C /* MemberView.swift in Sources */,
+				DA6BD9A3255A7D1D00B8F284 /* KeywordRuleItemCell.swift in Sources */,
+				DAA9E039250730D300A9324F /* SourceModel.swift in Sources */,
+				DA7B4040251D90B30059B404 /* ColdPageHeader.swift in Sources */,
+				DAA9E03D2507345400A9324F /* SiteApi.swift in Sources */,
+				DA8D00F325138759000D55F4 /* TuikanApi.swift in Sources */,
+				DA6BD9A6255A7D5800B8F284 /* KeywordRuleHeader.swift in Sources */,
+				DA0C169B25088F8F0000DF1E /* ArticleDetailHelper.swift in Sources */,
+				DA8D0104251645AF000D55F4 /* NingWebController.swift in Sources */,
+				DA7DCFB32506352D00FB4B15 /* UserInfoController.swift in Sources */,
+				8E919DC72535F06500E34D28 /* UploadApi.swift in Sources */,
+				DA7B403A251CDDD00059B404 /* ColdSourceHeader.swift in Sources */,
+				DA95534B250E55840025AC63 /* NingJuheArticleListController.swift in Sources */,
+				DAA9E03F2507792D00A9324F /* SourceArticleListController.swift in Sources */,
+				DA0C169D2508C6470000DF1E /* ArticleDetailOpHandler.swift in Sources */,
+				DA2F3FF92510FFEB0074E233 /* ManageGroupSourceCell.swift in Sources */,
+				DA7DCFB52506429E00FB4B15 /* NingLateArticleListController.swift in Sources */,
+				DA7DCFB9250649FB00FB4B15 /* AboutGuruController.swift in Sources */,
+				DAA9E04425077CF100A9324F /* NingSiteArticleListController.swift in Sources */,
+				DA789D0724FE8DD700CB27CE /* DispatchQueueExtension.swift in Sources */,
+				DA4D700C25039DF200F9F477 /* UCollectionViewAlignedLayout.swift in Sources */,
+				DA955353250F7A070025AC63 /* NingNewGroupController.swift in Sources */,
+				DA7DCFB72506496D00FB4B15 /* FavArticleListController.swift in Sources */,
+				8E21112C256AA07000CC9FC9 /* MemberOrderDAO.swift in Sources */,
+				8E1AD40F255BFFD8007CE01C /* MemberInfo.swift in Sources */,
+				DA8D01022515AC6F000D55F4 /* ManageTuikanView.swift in Sources */,
+				DAA9E03225072C8600A9324F /* BaseCollectionViewCell.swift in Sources */,
+				DA789D0D24FE8DD700CB27CE /* UIImageExtensions.swift in Sources */,
+				DA789D49250280BA00CB27CE /* BaseApi.swift in Sources */,
+				DA95534D250E5B140025AC63 /* DbManager.swift in Sources */,
+				DA8D0114251777C2000D55F4 /* DiscoverySiteController.swift in Sources */,
+				DA2A3E38253200340047F726 /* ArticleReadDAO.swift in Sources */,
+				DA4D701025039DF200F9F477 /* UHairPowder.swift in Sources */,
+				DA8D00FE2514F44F000D55F4 /* NingTuikanArticleListController.swift in Sources */,
+				DA7B403C251CDE2A0059B404 /* BaseCollectionReusableView.swift in Sources */,
+				DA7B402E251B7D710059B404 /* AgreementDialog.swift in Sources */,
+				DA789D3A25013CEB00CB27CE /* SiteHomeController.swift in Sources */,
+				DA955349250DE98E0025AC63 /* BaseListController.swift in Sources */,
+				DA8D0116251777D5000D55F4 /* DiscoveryTopicController.swift in Sources */,
+				8E1AD40B255BFF0D007CE01C /* MemberController.swift in Sources */,
+				DA4D70E82504A94700F9F477 /* UserDAO.swift in Sources */,
+				DA2C329E24FE469F00F66229 /* AppDelegate.swift in Sources */,
+				DAA9E03425072F4E00A9324F /* SourceFollowCell.swift in Sources */,
+				DA4D70E12503E4A100F9F477 /* ThemeManager.swift in Sources */,
+				DA11EBAD255561A8003B8758 /* EmptyKeywordView.swift in Sources */,
+				DA789D34250130A500CB27CE /* NingArticleListController.swift in Sources */,
+				DA7B403E251CE6070059B404 /* NingColdSiteController.swift in Sources */,
+				DA2A3E3B253203D20047F726 /* DateExtensions.swift in Sources */,
+				DA7B4030251B9D660059B404 /* PreferenceManager.swift in Sources */,
+				DA2A3E2F2531B9EB0047F726 /* NewUserController.swift in Sources */,
+				DA2F3FF52510E3D50074E233 /* ManageGroupController.swift in Sources */,
+				DA789D512502947900CB27CE /* BaseTableViewCell.swift in Sources */,
+				DA7B4032251C4B4C0059B404 /* SignupApi.swift in Sources */,
+				DA789D4F2502945B00CB27CE /* ArticleViewCell.swift in Sources */,
+				DAAA35352511D8A400052857 /* TransferGroupController.swift in Sources */,
+				DA789D0A24FE8DD700CB27CE /* UIViewExtension.swift in Sources */,
+				DA789D0624FE8DD700CB27CE /* UIColorExtension.swift in Sources */,
+				DA11EBB025556871003B8758 /* KeywordApi.swift in Sources */,
+				DA2F3FF32510E2500074E233 /* NingManageGroupCell.swift in Sources */,
+				DA8D01122517775E000D55F4 /* DiscoverySourceController.swift in Sources */,
+				DAAA35332511D89300052857 /* TransferSourceController.swift in Sources */,
+				DA4D701225039DF200F9F477 /* UIScrollView+ParallaxHeader.swift in Sources */,
+				DA955357250FB1260025AC63 /* UserNameController.swift in Sources */,
+				DAA9E03725072FD600A9324F /* HotSourceController.swift in Sources */,
+				DA4D700E25039DF200F9F477 /* URefresh.swift in Sources */,
+				DA4D70F12504D0FC00F9F477 /* LoginView.swift in Sources */,
+				DA8D00F52513A1D5000D55F4 /* FavCangHeader.swift in Sources */,
+				DA4D7001250352AF00F9F477 /* NingArticleDetailController.swift in Sources */,
+				DAA9E04625077D0200A9324F /* NingTopicArticleListController.swift in Sources */,
+				8E21113B25727D1E00CC9FC9 /* NingReceiptValidator.swift in Sources */,
+				DA0C16A125091AAF0000DF1E /* NingGroupHeaderCell.swift in Sources */,
+				DA789D3225012E5400CB27CE /* BasePageController.swift in Sources */,
+				DA789CE924FE703C00CB27CE /* HomeTabController.swift in Sources */,
+				DA7B4038251C50050059B404 /* NingColdSourceCell.swift in Sources */,
+				DA2A3E322531BA330047F726 /* NewUserFormView.swift in Sources */,
+				DA789D0E24FE8DD700CB27CE /* DictionaryExtension.swift in Sources */,
+				DA7DCFBB25066A0B00FB4B15 /* UserProfileView.swift in Sources */,
+				DA8D0100251506B3000D55F4 /* ManageTuikanController.swift in Sources */,
+				DA95534F250F1DED0025AC63 /* NingJuheSourceArticleHeader.swift in Sources */,
+				DAAA35372512508A00052857 /* NingGroupCangCell.swift in Sources */,
+				DA789D0C24FE8DD700CB27CE /* UIBarButtonItemExtension.swift in Sources */,
+				DA7B402A251B6E4C0059B404 /* UITextView.swift in Sources */,
+				DA2F3FED251079730074E233 /* GroupApi.swift in Sources */,
+				DA789D3C2501F29900CB27CE /* NingHotTopicController.swift in Sources */,
+				8E1AD4192561200A007CE01C /* MemberPayView.swift in Sources */,
+				DA11EBB3255631EE003B8758 /* KeywordArticleListController.swift in Sources */,
+				DA789D3825013CD600CB27CE /* TopicHomeController.swift in Sources */,
+				DAAA353925126B9900052857 /* FavArticleController.swift in Sources */,
+				DA7DCFBD25066A2D00FB4B15 /* UserFieldView.swift in Sources */,
+				DA2A3E352531F96E0047F726 /* AboutView.swift in Sources */,
+				DA8D00FA2513B8EB000D55F4 /* NewTuikanView.swift in Sources */,
+				8E5630B725402E2C00717259 /* UserEmailController.swift in Sources */,
+				DA789CED24FE70C600CB27CE /* BaseViewController.swift in Sources */,
+				DAA9E03025072C5C00A9324F /* NingHotCategoryCell.swift in Sources */,
+				DA4D70F32504D1E800F9F477 /* BaseView.swift in Sources */,
+				DA4D700D25039DF200F9F477 /* ParallaxHeader.swift in Sources */,
+				DA789D0B24FE8DD700CB27CE /* StringExtension.swift in Sources */,
+				DA2F854A2518628500035C83 /* ControllerUtils.swift in Sources */,
+				DA789D0924FE8DD700CB27CE /* UIDeviceExtension.swift in Sources */,
+				DA94231A2558096A00DFB9BD /* NewKeywordController.swift in Sources */,
+				DA789D47250279F100CB27CE /* BaseObject.swift in Sources */,
+				DA955351250F23970025AC63 /* SourceUnreadCountDAO.swift in Sources */,
+				DA2F3FE9251065920074E233 /* UserNameView.swift in Sources */,
+				DA7B4034251C4CEE0059B404 /* NingColdTopicController.swift in Sources */,
+				DA7B4036251C4D0C0059B404 /* ColdBaseController.swift in Sources */,
+				DA8D011825177846000D55F4 /* CatSourceListController.swift in Sources */,
+				DA4D70EC2504AABB00F9F477 /* DAOFactory.swift in Sources */,
+				DA789CF124FE77D100CB27CE /* SettingTabController.swift in Sources */,
+				DA789CEF24FE77A600CB27CE /* SubTabController.swift in Sources */,
+				DA4D70EA2504A96B00F9F477 /* UserInfo.swift in Sources */,
+				DA4D700F25039DF200F9F477 /* ParallaxHeaderMode.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		DA2C32A324FE469F00F66229 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				DA2C32A424FE469F00F66229 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		DA2C32A824FE46A600F66229 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				DA2C32A924FE46A600F66229 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		DA2C32AC24FE46A600F66229 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		DA2C32AD24FE46A600F66229 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		DA2C32AF24FE46A600F66229 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 4849C8965D50B64C8F128059 /* Pods-ning.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1.1.0;
+				DEVELOPMENT_TEAM = SN6Y6ZUY85;
+				INFOPLIST_FILE = ning/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.gurureader;
+				PRODUCT_NAME = GuruReader;
+				SWIFT_OBJC_BRIDGING_HEADER = "/Users/yujianjia/workspace/open/ning/ning/ning-Bridging-Header.h";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Debug;
+		};
+		DA2C32B024FE46A600F66229 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = B18DB2E9725BC2FED1413BD1 /* Pods-ning.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1.1.0;
+				DEVELOPMENT_TEAM = SN6Y6ZUY85;
+				INFOPLIST_FILE = ning/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.gurureader;
+				PRODUCT_NAME = GuruReader;
+				SWIFT_OBJC_BRIDGING_HEADER = "/Users/yujianjia/workspace/open/ning/ning/ning-Bridging-Header.h";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		DA2C329524FE469F00F66229 /* Build configuration list for PBXProject "ning" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DA2C32AC24FE46A600F66229 /* Debug */,
+				DA2C32AD24FE46A600F66229 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		DA2C32AE24FE46A600F66229 /* Build configuration list for PBXNativeTarget "ning" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DA2C32AF24FE46A600F66229 /* Debug */,
+				DA2C32B024FE46A600F66229 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = DA2C329224FE469F00F66229 /* Project object */;
+}

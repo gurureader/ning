@@ -1,0 +1,2 @@
+# ning
+GuruReader iOS APP
